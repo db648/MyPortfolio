@@ -35,7 +35,7 @@ function SendMSG(e) {
     thank.style.display = "block"
     setTimeout(() => {
       thank.style.display = "none"
-    },2000)
+    },1000)
   }
   
   function failure() {
@@ -43,9 +43,9 @@ function SendMSG(e) {
     fail.style.display = "block"
     setTimeout(() => {
       fail.style.display = "none"
-    },2000)
+    },1000)
   }
   
   // d9edf392-bffd-4fa3-9d98-b2566146073d => token1
-  
+  //template_v4x8ndu
   // service id = service_f3etz3t
