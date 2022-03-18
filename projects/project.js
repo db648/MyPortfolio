@@ -34,12 +34,11 @@ const Projects = [
 
     },
     {
-        name : "BingStar-MovieApp",
-        about : "A Movie search web application, where user will get category based movies and also can search for a movie. Here user will get all info related to a particular movie with video clips.",
-        img : "https://miro.medium.com/max/700/1*M0MkC_BF8baxFvrN08c3MA.png",
-        gitrepo : "https://github.com/Ankit-Mishra07/BingStar-movie-Search",
-        video : "https://youtu.be/hNrxQDyJYUs",
-        blog : "https://medium.com/@ankitmi468/bingstar-a-movie-search-web-application-70f478a5ee6b",
+        name : "Weather-Map App",
+        about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report and weekly report.",
+        img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhImnN1KCxe8k8DDt0pCl01uqmq6yZDPm3w&usqp=CAU",
+        gitrepo : "https://github.com/db648/weatherapp",
+        blog : "",
         tech_stack : "HTML | CSS | JAVASCRIPT | API's",
         tech_stackicons : [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
@@ -48,7 +47,7 @@ const Projects = [
             `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
             
         ],
-        project_link : "https://bingstar.netlify.app/",
+        project_link : "https://weatherapp-ten-kappa.vercel.app/",
         project_type : "Indivisual Project"
 
     },
@@ -64,14 +63,14 @@ Projects.forEach(pro => {
     <div class="portfolio-item-inner shadow-dark">
     <div class="portfolio-img">
       <img src=${pro.img} alt="">
-      <h3 class="project-name">${pro.name}</h3> <br/>
+      <h3 class="project-name"><b>${pro.name}</b></h3> <br/>
       <h4 class="project-name project__about">${pro.about}</h4>
       <div class="navigate_ar"><a href=${pro.blog} target="_blank" class="blog-post">BLOG</a>
       <a href=${pro.project_link} target="_blank" class="see-project">DEMO</a>
       <a href=${pro.gitrepo} target="_blank" class="github-repo">GitHub💻</a>
       </div>
-      
-      <h3 class="project-name techcen">Tech Stack </h3>
+    
+      <h3 class="project-name techcen"><b>Tech Stack</b></h3>
       <span>${pro.tech_stackicons[0] ? pro.tech_stackicons[0] : '' }
       ${pro.tech_stackicons[1] ? pro.tech_stackicons[1] : ''}
       ${pro.tech_stackicons[2] ? pro.tech_stackicons[2] : ''}

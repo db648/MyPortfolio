@@ -5,14 +5,18 @@ function SendMSG(e) {
       let subject_txt = document.querySelector("#subject")
       let message_txt = document.querySelector("#message")
       let body = "Name:" + nam_txt.value + ",  " + "email:" + email_txt.value + ",  " + "subject:" + subject_txt.value +  ",  "+ "Message : " + message_txt.value
-  
+      
   let temp = {
     from_name : nam_txt.value,
     to_name : "Durga Bhavani",
     message : body
   }
   
-  emailjs.send('service_f3etz3t', 'template_v4x8ndu', temp)
+  if(nam_txt.value === "" || email_txt.value === "" || subject_txt.value === "" || message_txt.value === "" || body.value === "" ) {
+    return alert("Please Fill Complete Details!!")
+  }
+
+  emailjs.send('service_dgzslkp', 'template_s7cwgdl', temp, "yInfKq3RKqNrQCrdU")
   .then((res) => {
     if(res.status == 200) {
       success()
