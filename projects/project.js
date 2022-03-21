@@ -65,10 +65,10 @@ Projects.forEach(pro => {
       <img src=${pro.img} alt="">
       <h3 class="project-name"><b>${pro.name}</b></h3> <br/>
       <h4 class="project-name project__about">${pro.about}</h4>
-      <a href=${pro.project_link} target="_blank" class="see-project">Live</a>
-      <a href=${pro.gitrepo} target="_blank" class="github-repo">GitHub💻</a>
+      <a href=${pro.project_link} target="_blank" class="see-project">Live💻</a>
+      <a href=${pro.gitrepo} target="_blank" class="github-repo">GitHub</a>
       </div>
-    
+      <br/>
       <h3 class="project-name techcen"><b>Tech Stack</b></h3>
       <span>${pro.tech_stackicons[0] ? pro.tech_stackicons[0] : '' }
       ${pro.tech_stackicons[1] ? pro.tech_stackicons[1] : ''}
