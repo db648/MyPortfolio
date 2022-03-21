@@ -36,7 +36,7 @@ const Projects = [
     {
         name : "Weather-Map App",
         about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report and weekly report.",
-        img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhImnN1KCxe8k8DDt0pCl01uqmq6yZDPm3w&usqp=CAU",
+        img : "./weather.png",
         gitrepo : "https://github.com/db648/weatherapp",
         blog : "",
         tech_stack : "HTML | CSS | JAVASCRIPT | API's",
@@ -65,8 +65,7 @@ Projects.forEach(pro => {
       <img src=${pro.img} alt="">
       <h3 class="project-name"><b>${pro.name}</b></h3> <br/>
       <h4 class="project-name project__about">${pro.about}</h4>
-      <div class="navigate_ar"><a href=${pro.blog} target="_blank" class="blog-post">BLOG</a>
-      <a href=${pro.project_link} target="_blank" class="see-project">DEMO</a>
+      <a href=${pro.project_link} target="_blank" class="see-project">Live</a>
       <a href=${pro.gitrepo} target="_blank" class="github-repo">GitHub💻</a>
       </div>
     
@@ -75,6 +74,7 @@ Projects.forEach(pro => {
       ${pro.tech_stackicons[1] ? pro.tech_stackicons[1] : ''}
       ${pro.tech_stackicons[2] ? pro.tech_stackicons[2] : ''}
       ${pro.tech_stackicons[3] ? pro.tech_stackicons[3] : ''}
+      ${pro.tech_stackicons[4] ? pro.tech_stackicons[4] : ''}
       </span>
       
     </div>

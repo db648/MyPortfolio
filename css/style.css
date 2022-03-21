@@ -955,6 +955,7 @@ h3.my-profession
         /* display: none; */
         margin: auto;
         margin-top: 50px;
+        max-width: 100%;
     }
     .home-img::before{
         border-top: none;
@@ -967,6 +968,10 @@ h3.my-profession
     #heroimgrevv{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .home-img img{
+        object-fit: cover;
+        width: 100%
     }
 }
 @media (max-width:767px)
@@ -1045,6 +1050,7 @@ h3.my-profession
 @media (max-width:565px) {
     h3.hello span {
         font-size: 32px;
+        height: 160px;
     }
 }
 
