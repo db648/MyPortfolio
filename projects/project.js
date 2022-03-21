@@ -1,7 +1,7 @@
 const Projects = [
     {
         name : "Clone of specsmakers.in",
-        about : "Specsmakers offers a wide variety of stylish eyewear with high quality of Eyeglasses, Eyeglass Frames, Computer Glasses, Contact Lenses and Sunglasses.",
+        about : "Specsmakers offers a wide variety of stylish eyewear with high quality of Eyeglasses, Eyeglass Frames, Computer Glasses, Contact Lenses and Sunglasses Online at specsmakers.",
         img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT83waNZy94ppQK-oRhV70lco-r4kcA8rZ13Q&usqp=CAU",
         gitrepo : "https://github.com/db648/Specs-Makers-clone",
         blog : "https://medium.com/@vdbhavani.648/specsmakers-clone-8e0434e3ed0e",
@@ -35,7 +35,7 @@ const Projects = [
     },
     {
         name : "Weather-Map App",
-        about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report and weekly report.",
+        about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report as well as weekly forecast.",
         img : "./weather.png",
         gitrepo : "https://github.com/db648/weatherapp",
         blog : "",
