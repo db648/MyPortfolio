@@ -34,7 +34,7 @@ const Projects = [
 
     },
     {
-        name : "Weather-Map App",
+        name : "Weather-Map Web Application",
         about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report as well as weekly forecast.",
         img : "./weather.png",
         gitrepo : "https://github.com/db648/weatherapp",
