@@ -14,8 +14,7 @@ const Projects = [
             `<img src="https://img.icons8.com/color/48/000000/redux.png"/>`,
             `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
             `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
-            `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/material-ui.png"/>`
+            `<img src="https://img.icons8.com/color/48/000000/express.png"/>`
         ],
         project_link : "https://agoda-clone-website.vercel.app/",
         project_type : "Team Project"
@@ -55,6 +54,29 @@ const Projects = [
 
     },
     {
+        name : "Clone of MyShopping.com",
+        about : "An E-commerce website that sells fashionable, branded clothing for women, men & kids online at MyShopping.com.",
+        img : "./homepage-shopping.png",
+        gitrepo : "https://github.com/db648/ecommerce-react-project",
+        blog : "",
+        tech_stack : "HTML | CSS | JAVASCRIPT | React | Redux | MongoDB | Express | Nodejs | Bootstrap",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/react-native.png"/>`,
+            `<img src="https://img.icons8.com/color/48/000000/redux.png"/>`,
+            `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
+            `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
+            `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
+            `<img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>`
+            
+        ],
+        project_link : "https://ecommerce-react-project.vercel.app/",
+        project_type : "Individual Project"
+
+    },
+    {
         name : "Weather-Map Web Application",
         about : "A Weather search web application, where user will get location based weather report. Here user will get all info related to a particular city with daily report as well as weekly forecast.",
         img : "./weather.png",
@@ -69,9 +91,9 @@ const Projects = [
             
         ],
         project_link : "https://weatherapp-ten-kappa.vercel.app/",
-        project_type : "Indivisual Project"
+        project_type : "Individual Project"
 
-    },
+    }
 ]
 
 
